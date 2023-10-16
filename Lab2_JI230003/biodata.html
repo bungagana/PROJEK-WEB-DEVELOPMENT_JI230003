@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LAB2 Bunga LM</title>
+    <style>
+        .Navbar {
+            background: #00386C;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .Lp {
+            background: url('https://cdn.pixabay.com/photo/2021/04/13/06/59/woman-6174830_1280.jpg') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            color: white;
+            padding: 100px 0;
+            opacity: 1.5;
+        }
+        
+        .Title {
+            font-size: 36px;
+            margin: 2px 0;
+        }
+        
+        .Button {
+            padding: 10px 20px;
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+            border-radius: 10px;
+            border: 1.50px #e5e0d8 solid;
+            justify-content: center;
+            display: inline-flex;
+            text-decoration: none;
+            color: #F0E7DB;
+            font-size: 16px;
+            margin-top: 32px;
+        }
+        
+        .Button:hover {
+            background: blue;
+        }
+        
+        .Home,
+        .Dv,
+        .About {
+            text-decoration: none;
+            color: white;
+            margin-right: 24px;
+        }
+        
+        .Biodata {
+            background: #ececeb;
+            color: #222222;
+            text-align: center;
+            padding: 40px;
+            max-width: 100%;
+        }
+        
+        h2 {
+            font-size: 24px;
+            color: #00386C;
+            margin-top: auto;
+        }
+        
+        table.tableBio {
+            border-collapse: collapse;
+            margin: auto;
+            margin-bottom: 32px;
+            justify-content: center;
+        }
+        
+        th,
+        td {
+            padding: 10px;
+            text-align: justify;
+        }
+        
+        th {
+            background: #00386C;
+            color: white;
+            text-align: center;
+        }
+        
+        ul {
+            text-align: justify;
+            padding: 0;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        table.Planner {
+            border: 2px dashed #00386C;
+            margin: auto;
+            margin-bottom: 32px;
+        }
+        
+        #firstBt {
+            background-color: #33FF57;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 5px;
+        }
+        
+        #secBt {
+            background-color: #FF5733;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Navbar">
+        <a class="Home" href="#">Home</a>
+        <a class="Dv" href="">Dream Vacation</a>
+        <a class="About" href="#">About</a>
+    </div>
+
+    <div class="Lp">
+        <h3 class="Title">UNINTERESTING BUT INTRIGUING</h3>
+        <h3 class="Title">PERSONAL WEB</h3>
+        <a href="https://wa.me/6283861327170" class="Button"><b>Contact Me</b></a>
+    </div>
+
+    <div class="Biodata">
+        <h2>My Biodata</h2>
+        <table class="tableBio" border="1">
+            <tr>
+                <th>Information</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td><b>Name</b></td>
+                <td>Bunga Laelatul Muna</td>
+            </tr>
+            <tr>
+                <td><b>Age</b></td>
+                <td>20 y.o</td>
+            </tr>
+            <tr>
+                <td><b>Hobbies</b></td>
+                <td>Writing and Programming</td>
+            </tr>
+            <tr>
+                <td><b>Interests</b></td>
+                <td>I like all about IT like Design, AI, Programming and other technologies</td>
+            </tr>
+        </table>
+        <h2>My Planner In 2023</h2>
+        <table class="Planner">
+            <tr>
+                <td colspan="3">
+                    <ul>
+                        <li>I want to be better than the year before</li>
+                        <li>I want to study abroad in Malaysia</li>
+                        <li>I want to win in an International Hackathon Competition</li>
+                        <li>I want to improve my public speaking skills</li>
+                        <li>I want to travelling to 2 country</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="DreamVa">
+            <h2>My Dream Vacation</h2>
+            <p><i>I Have A Dream Vacation, I love the place and I plan to vacation there.</i></p>
+            <a href="place1.html" class="Button" id="firstBt">First Dream Va</a>
+            <a href="place2.html" class="Button" id="secBt">Second Dream Va</a>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
