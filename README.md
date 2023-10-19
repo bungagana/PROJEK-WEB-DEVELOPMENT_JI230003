@@ -4,4 +4,4 @@ Name : Bunga Laelatul Muna
 Matric Number : JI230003
 University : Universiti Tun Husein Onn Malaysia
 
-![Foto contoh](foto.jpg)
+![Foto contoh](biodata.png)
